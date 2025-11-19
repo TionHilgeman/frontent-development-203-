@@ -40,11 +40,11 @@ Tion Hilgeman
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="images/screencapture-santacruzbicycles-en-nl-2025-11-13-10_53_52.pdf" width="375px" alt="home page van de site">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="images/screencapture-santacruzbicycles-en-nl-collections-megatower-2025-11-13-10_54_38.pdf" width="375px" alt="product pagina">
  
 </details>
 
