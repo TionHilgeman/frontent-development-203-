@@ -57,6 +57,11 @@ Tion Hilgeman
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  1. de html code is niet goed gevalideerd.
+  2. worden geen li of ul tags gebruikt.
+  3. Alle media dingen zijn niet goed.
+  4. dark light niet suported.
+  5. de animaties zijn niet goed uitgewerkt in de site.
 
 </details>
 
