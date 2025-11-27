@@ -1,31 +1,212 @@
-/**************/
-/* CSS REMEDY */
-/**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
+*{
+    color: white;
+    list-style: none;
+
+}
+
+ul{
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'proxima-nova';
+    src: url(webfontkit-20251126-034941/proxima_nova_regular-webfont.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bold';
+    src: url(webfontkit-20251126-034941/proxima_nova_semibold-webfont.woff2);
+    font-weight: bold;
+    font-style: bold;
+}
+
+body{
+    margin: 0px;
+}
+h1{
+    margin-top: 10em;
+    font-size: 42px;
+    font-family: 'bold';
+}
+
+h2{
+ font-size: 32px;
+ font-family: 'bold';
+}
+
+h3{
+    font-family: 'bold';
+}
+
+p{
+    font-family: 'proxima-nova';
+    font-size: 16px;
+}
+
+header{
+    background-color: black;
+    padding-bottom: 3em;
+    padding-top: 1em;
+}
+
+section, header{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+header ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0px 0px 0px 0px;
+    align-items: center;
+}
+ul:first-of-type img{
+    width: 30px;
+}
+
+.subtekst{
+    color: red;
+    padding-top: 4em;
+}
+    
+
+
+
+button{
+    background-color: white;
+    color: black;
+    padding: 15px 20px 15px 15px;
+
+}
+
+
+
+section:first-of-type{
+    background-color: black;
+    padding-bottom: 4em;
+}
+
+section img{
+    max-width: 100%;
+    min-width: 300px;
+    padding-top: 2em;
+}
+
+.scrollbar ul{
+    display:flex;
+    flex-direction: row;
+    flex-shrink: none;
+    gap: 1em;
+    padding: 0px;
+
+}
+ 
+section:nth-of-type(2){
+    background-color: white;
+    margin: 0px;
+}
+
+.scroll{
+    overflow:scroll;
+    padding-top: 4em;
+}
+section:nth-of-type(2) p{
+    color:black;
+}
+section:nth-of-type(2) h2{
+    color: black;
+}
+
+.scrollbar li img{
+width: 300px;
+height: 400px;
+}
+
+.scrollbar h3{
+    position: relative;
+    bottom: 4em;
+    color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.scrollbar li p{
+    position: relative;
+    bottom: 6em;
+    color: white;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 
 
 
-
-
-/*********************/
-/* CUSTOM PROPERTIES */
-/*********************/
-:root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+section:nth-of-type(3) img{
+    width: 100%;
+    height:431px;
+    object-fit: cover;
 }
 
+section:nth-of-type(3) ul{
+    display:flex;
+    flex-direction: column;
+    padding-left: 0px;
+}
+
+.preview p{
+    position:relative;
+    bottom: 10em;
+    color:  white;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.preview h3{
+    position: relative;
+    bottom: 7.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    
+}
+
+section:nth-of-type(4){
+    overflow: scroll;
+}
+
+section:nth-of-type(4) ul{
+    display:flex;
+    flex-direction: row;
+    gap: 1em;
 
 
+}
 
+section:nth-of-type(4) p, section:nth-of-type(4) h3{
+    color: black;
+    padding-left: 1em;
+    padding-right: 1em;
+}
 
-/****************/
-/* JOUW STYLING */
-/****************/
+section:nth-of-type(4) img{
+    padding-left: 1em;
+    padding-right: 1em;
+}
 
-/* jouw code */
+section:nth-of-type(4) li{
+    border-color: black;
+    border: 1px solid black;
+}
 
+section:nth-of-type(4) h2{
+    color: black;
+}
+
+footer{
+    background-color: black;
+    padding-left: 1em;
+    padding-left: 1em;
+    padding-top: 2em;
+}
