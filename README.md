@@ -126,7 +126,7 @@ Tion Hilgeman
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  
 
 
   ### Agenda voor meeting
