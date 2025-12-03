@@ -5,6 +5,7 @@
 }
 
 ul{
+
     padding: 0px;
 }
 
@@ -25,6 +26,10 @@ ul{
 body{
     margin: 0px;
 }
+.subtekst{
+    color: red;
+}
+
 h1{
     margin-top: 10em;
     font-size: 42px;
@@ -67,10 +72,7 @@ ul:first-of-type img{
     width: 30px;
 }
 
-.subtekst{
-    color: red;
-    padding-top: 4em;
-}
+
     
 
 
@@ -205,8 +207,131 @@ section:nth-of-type(4) h2{
 }
 
 footer{
-    background-color: black;
+    background-color: #201e1e;
     padding-left: 1em;
-    padding-left: 1em;
+    padding-right: 1em;
     padding-top: 2em;
+    padding-bottom: 2em;
+    display: flex;
+    flex-direction: column;
 }
+footer button{
+    width: 12em;
+    background-color: red;
+    color: white;
+}
+
+footer img{
+    width: 15em;
+    padding-top: 3em;
+}
+
+label{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+input{
+    height: 2.5em;
+}
+.v10 {
+    display: flex;
+    Flex-direction: column;
+    Justify-content: center;
+    align-items: center;
+}
+
+.img {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;    
+    height: 33em;               
+    overflow: hidden;
+}
+
+.img img {
+    grid-area: 1 / 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img .tekst {
+    grid-area: 1 / 1;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.img .tekst h2, .img .tekst p{
+    color: white;
+}
+
+.race{
+height: 25em;
+object-fit: cover;
+}
+
+.the-eighth img:nth-of-type(2){
+    height: 25em;
+    object-fit: cover;
+}
+
+.puzzle h2, .puzzle p{
+    color: black;
+}
+
+.puzzle li{
+    border-style: solid;
+    border-color: black;
+}
+.puzzle ul li img{
+    height: 13em;
+    width: 100%;
+    padding-bottom: 2em;
+}
+
+.puzzle li h3, .puzzle li p{
+    color: black;
+    padding-left: 1em;
+}
+
+.puzzle ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.details{
+    background-color: black;
+}
+
+.details ul li p, .details ul li h3, .details ul li button{
+    color: white;
+}
+
+.about h2, .about p{
+    color: black;
+}
+
+.about{
+    padding-left: 1em;
+    padding-bottom: 2em;
+}
+
+.filter{
+    display:flex;
+    Flex-direction: row;
+    gap: 1em;
+}
+
+.filter button{
+    background-color: #f2f2f2;
+    border-color: white;
+    color: #201e1e;
+    font-size: 12px;
+    padding: 0.5em;
+}
+
