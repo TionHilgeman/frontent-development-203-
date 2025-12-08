@@ -232,8 +232,9 @@ verder moet ik gewoon verder werken aan de site.
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. [bron 1](https://www.google.com/search?q=hoe+maak+ik+een+hamburger+menu+html&sca_esv=bdfa73f17f6789a5&rlz=1C5CHFA_enNL1123NL1123&sxsrf=AE3TifNJyRU9_f1qQti87lJo8NZZsH6OKg%3A1765222181631&ei=JSc3acmiJuqJi-gP9KymkQo&ved=0ahUKEwiJydeI3a6RAxXqxAIHHXSWKaIQ4dUDCBE&uact=5&oq=hoe+maak+ik+een+hamburger+menu+html&gs_lp=Egxnd3Mtd2l6LXNlcnAiI2hvZSBtYWFrIGlrIGVlbiBoYW1idXJnZXIgbWVudSBodG1sMgUQIRigATIFECEYoAEyBRAhGKABMgUQIRifBTIFECEYnwUyBRAhGJ8FMgUQIRifBTIFECEYnwVIjRZQmgdY2RNwAngBkAEAmAGBAaABnQSqAQM1LjG4AQPIAQD4AQGYAgigAsUEwgIKEAAYsAMY1gQYR8ICBhAAGBYYHsICCBAAGIAEGKIEwgIFEAAY7wXCAgcQIRigARgKmAMAiAYBkAYIkgcDNi4yoAe_LbIHAzQuMrgHvATCBwUwLjQuNMgHFoAIAA&sclient=gws-wiz-serp#fpstate=ive&vld=cid:8e500914,vid:_1MEW9VJ32Y,st:0)
+  2. chat gpt (voor kleine style dingtjes)
+  3. css tricks voor het gebruik van flexbox
+  4. grid garden voor het gebruiken van grid
 
 </details>
