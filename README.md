@@ -164,7 +164,7 @@ Tion Hilgeman
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  De site is bij bijna alle dingen gelijk. het enige dat afwijkt is dat ik het niet voorelkaar heb gekregen om de video op pauze te kunnen zetten en bij sommige plaatjes is het contrast niet goed, omdat ik geen goede code kon vinden om de plaatjes donkerder te krijgen.
 
 </details>
 
@@ -194,11 +194,8 @@ Ik heb mijn hele site af op telefoon formaat. er zijn een paar kleine dingen die
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
+er word geen uitleg meer gegeven op vragen die ik stel. dus kan hier niet heel veel verder mee werken
+verder moet ik gewoon verder werken aan de site.
 </details>
 
 
@@ -215,13 +212,16 @@ Ik heb mijn hele site af op telefoon formaat. er zijn een paar kleine dingen die
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Het gene dat goed ging was het maken van de html en en css van de pagina. het stylen en positionere was prima te doen op sommige stukken na.
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Op het einde zijn veel dingen van mijn pagina door elkaar geschoten door dat er dingen verschoven moesten worden. ik heb geen tijd meer gehad om alles te fixen.
+  ook het maken van het hamburger menu ging lastig, aangezien ik het zelf moest uit zoeken, omdat er bij mijn feedback moment tijdens mijn vraag alleen maar werd verwezen naar de slides die ik allemaal al een aantal keer had bekeken.
+
+  Ook het gebruiken van grid blijft lastig, omdat dit blijft verschringen op mijn pagina.
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
