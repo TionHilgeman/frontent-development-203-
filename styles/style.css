@@ -1,10 +1,29 @@
-*{
-    color: white;
+* {
+    color: var(--text-color2);
     list-style: none;
 
 }
 
-ul{
+:root {
+    --background-color: white;
+    --background-color2: black;
+    --text-color: black;
+    --text-color2: white;
+    --background-v10: #3F4123;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: black;
+        --background-color2: black;
+        --text-color: white;
+        --text-color2: white;
+        --border-color: white;
+        --background-v10: #3F4123;
+    }
+}
+
+ul {
 
     padding: 0px;
 }
@@ -23,122 +42,163 @@ ul{
     font-style: bold;
 }
 
-body{
+body {
     margin: 0px;
 }
-.subtekst{
+.mtb-fiets {
+    width: 50vw;
+}
+Header img{
+    width: 3em;
+}
+
+.groen{
+    background-color: var(--background-v10);
+}
+
+.nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.menu-list {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: -9999em;
+    background-color: #555;
+    height: 100vh;
+    margin: 0;
+    padding: 1em;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 2em;
+    transition: 0.5s;
+    align-items: center;
+    gap: 2em;
+}
+
+.menu-button {
+    width: 1.5em;
+    height: 1.5em;
+    background-size: contain;
+    float: left;
+    margin-top: 1em;
+    background-color: black;
+}
+
+#close-menu {
+    background-image: url ('images/button-hamburger.png');
+}
+
+#open-menu {
+    background-image: url ('images/button-hamburger.png');
+}
+
+.background-video {
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    width: 60em;
+    height: 70em;
+    object-fit: cover;
+
+}
+
+section {
+    background-color: var(--background-color)
+}
+
+.subtekst {
     color: red;
 }
 
-h1{
+h1 {
     margin-top: 10em;
     font-size: 42px;
     font-family: 'bold';
 }
 
-h2{
- font-size: 32px;
- font-family: 'bold';
-}
-
-h3{
+h2 {
+    font-size: 32px;
     font-family: 'bold';
 }
 
-p{
+h3 {
+    font-family: 'bold';
+}
+
+p {
     font-family: 'proxima-nova';
     font-size: 16px;
 }
 
-header{
-    background-color: black;
-    padding-bottom: 3em;
-    padding-top: 1em;
-}
-
-section, header{
-    padding-left: 1em;
-    padding-right: 1em;
-}
-
-header ul{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 0px 0px 0px 0px;
-    align-items: center;
-}
-ul:first-of-type img{
-    width: 30px;
-}
 
 
-    
-
-
-
-button{
+button {
     background-color: white;
     color: black;
     padding: 15px 20px 15px 15px;
 
 }
 
-
-
-section:first-of-type{
-    background-color: black;
+.first-section {
+    background-color: var(--background-color2);
     padding-bottom: 4em;
 }
 
-section img{
+section img {
     max-width: 100%;
     min-width: 300px;
     padding-top: 2em;
 }
 
-.scrollbar ul{
-    display:flex;
+.scrollbar ul {
+    display: flex;
     flex-direction: row;
     flex-shrink: none;
     gap: 1em;
     padding: 0px;
 
 }
- 
-section:nth-of-type(2){
-    background-color: white;
+
+section:nth-of-type(2) {
+    background-color: var(--background-color);
     margin: 0px;
 }
 
-.scroll{
-    overflow:scroll;
+.scroll {
+    overflow: scroll;
     padding-top: 4em;
 }
-section:nth-of-type(2) p{
-    color:black;
-}
-section:nth-of-type(2) h2{
-    color: black;
+
+section:nth-of-type(2) p {
+    color: var(--text-color);
 }
 
-.scrollbar li img{
-width: 300px;
-height: 400px;
+section:nth-of-type(2) h2 {
+    color: var(--text-color);
 }
 
-.scrollbar h3{
+.scrollbar li img {
+    width: 300px;
+    height: 400px;
+}
+
+.scrollbar h3 {
     position: relative;
     bottom: 4em;
-    color: white;
+    color: var(--text-color2);
     padding-left: 1em;
     padding-right: 1em;
 }
 
-.scrollbar li p{
+.scrollbar li p {
     position: relative;
     bottom: 6em;
-    color: white;
+    color: var(--text-color2);
     padding-left: 1em;
     padding-right: 1em;
 }
@@ -146,67 +206,66 @@ height: 400px;
 
 
 
-section:nth-of-type(3) img{
+section:nth-of-type(3) img {
     width: 100%;
-    height:431px;
+    height: 431px;
     object-fit: cover;
 }
 
-section:nth-of-type(3) ul{
-    display:flex;
+section:nth-of-type(3) ul {
+    display: flex;
     flex-direction: column;
     padding-left: 0px;
 }
 
-.preview p{
-    position:relative;
+.preview p {
+    position: relative;
     bottom: 10em;
-    color:  white;
+    color: var(--text-color2);
     padding-left: 1em;
     padding-right: 1em;
 }
 
-.preview h3{
+.preview h3 {
     position: relative;
     bottom: 7.5em;
     padding-left: 1em;
     padding-right: 1em;
-    
+
 }
 
-section:nth-of-type(4){
+section:nth-of-type(4) {
     overflow: scroll;
 }
 
-section:nth-of-type(4) ul{
-    display:flex;
+section:nth-of-type(4) ul {
+    display: flex;
     flex-direction: row;
     gap: 1em;
 
 
 }
 
-section:nth-of-type(4) p, section:nth-of-type(4) h3{
-    color: black;
+section:nth-of-type(4) p,
+section:nth-of-type(4) h3 {
+    color: var(--text-color);
     padding-left: 1em;
     padding-right: 1em;
 }
 
-section:nth-of-type(4) img{
+section:nth-of-type(4) img {
     padding-left: 1em;
     padding-right: 1em;
 }
 
-section:nth-of-type(4) li{
+section:nth-of-type(4) li {
     border-color: black;
     border: 1px solid black;
 }
 
-section:nth-of-type(4) h2{
-    color: black;
-}
 
-footer{
+
+footer {
     background-color: #201e1e;
     padding-left: 1em;
     padding-right: 1em;
@@ -215,36 +274,33 @@ footer{
     display: flex;
     flex-direction: column;
 }
-footer button{
+
+footer button {
     width: 12em;
     background-color: red;
     color: white;
 }
 
-footer img{
+footer img {
     width: 15em;
     padding-top: 3em;
 }
 
-label{
+label {
     padding-top: 0.5em;
     padding-bottom: 0.5em;
 }
-input{
+
+input {
     height: 2.5em;
 }
-.v10 {
-    display: flex;
-    Flex-direction: column;
-    Justify-content: center;
-    align-items: center;
-}
+
 
 .img {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;    
-    height: 33em;               
+    grid-template-rows: 1fr;
+    height: 33em;
     overflow: hidden;
 }
 
@@ -257,7 +313,7 @@ input{
 
 .img .tekst {
     grid-area: 1 / 1;
-    
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -265,73 +321,233 @@ input{
     text-align: center;
 }
 
-.img .tekst h2, .img .tekst p{
-    color: white;
+.img .tekst h2,
+.img .tekst p {
+    color: var(--text-color2);
 }
 
-.race{
-height: 25em;
-object-fit: cover;
-}
-
-.the-eighth img:nth-of-type(2){
+.race {
     height: 25em;
     object-fit: cover;
 }
 
-.puzzle h2, .puzzle p{
-    color: black;
+.the-eighth img:nth-of-type(2) {
+    height: 25em;
+    object-fit: cover;
 }
 
-.puzzle li{
+.puzzle h2,
+.puzzle p {
+    color: var(--text-color);
+}
+
+.puzzle li {
     border-style: solid;
     border-color: black;
 }
-.puzzle ul li img{
+
+.puzzle ul li img {
     height: 13em;
     width: 100%;
     padding-bottom: 2em;
 }
 
-.puzzle li h3, .puzzle li p{
-    color: black;
+.puzzle li h3,
+.puzzle li p {
+    color: var(--text-color);
     padding-left: 1em;
 }
 
-.puzzle ul{
+.puzzle ul {
     display: flex;
     flex-direction: column;
     gap: 1em;
 }
 
-.details{
-    background-color: black;
+.details {
+    background-color: var(--background-color2);
 }
 
-.details ul li p, .details ul li h3, .details ul li button{
-    color: white;
+.details h2 {
+    color: var(--text-color2);
 }
 
-.about h2, .about p{
+.details ul li p,
+.details ul li h3
+ {
+    color: var(--text-color2);
+}
+
+.details ul li button{
     color: black;
 }
+.about h2,
+.about p {
+    color: var(--text-color);
+}
 
-.about{
+.about {
     padding-left: 1em;
     padding-bottom: 2em;
 }
 
-.filter{
-    display:flex;
+.filter {
+    display: flex;
     Flex-direction: row;
     gap: 1em;
 }
 
-.filter button{
-    background-color: #f2f2f2;
+.filter button {
+    background-color: white;
     border-color: white;
     color: #201e1e;
     font-size: 12px;
     padding: 0.5em;
 }
+
+.color {
+    color: var(--text-color);
+}
+
+@media (min-width: 800px) {
+
+    p,
+    h2 {
+        padding-left: 1em;
+    }
+
+    video {
+        width: 100em;
+    }
+    .nav{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    
+    }
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .first-section {
+        display: flex;
+        flex-direction: row;
+        gap: 2em;
+    }
+
+    .responsive button {
+        width: 10em;
+    }
+
+    .first-section img {
+        width: auto;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .responsive {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .scrollbar h2 {
+        padding-top: 4em;
+    }
+
+    .scrollbar {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .links {
+        order: -1;
+        width: 40em;
+    }
+
+    .preview ul {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .preview ul li img {
+        width: 20em;
+        position: relative;
+    }
+
+    .preview ul li {
+        width: 20em;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: row;
+        padding-top: 4em;
+        padding-bottom: 4em;
+    }
+
+    .speed {
+        display: flex;
+        flex-direction: row;
+        padding-top: 4em;
+        gap: 2em;
+    }
+
+    .speed img {
+        order: 1;
+        width: 40em;
+    }
+
+    .speed2 {
+        display: flex;
+        flex-direction: row;
+        padding-top: 4em;
+        gap: 2em;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .responsive2 {
+        display: flex;
+        flex-direction: column;
+        width: 40em;
+    }
+
+    .puzzle ul {
+        display: flex;
+        flex-direction: column;
+        width: 40em;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        width: 30em;
+        padding-top: 4em;
+        border-color: black;
+        border-style: solid;
+        padding-right: 1em;
+    }
+
+    .about button {
+        width: 10em;
+    }
+    .img img:first-of-type{
+        height: 50em;
+        width: 100%;
+    }
+
+    
+}
+
 
