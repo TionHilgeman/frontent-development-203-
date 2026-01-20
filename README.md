@@ -216,11 +216,17 @@ verder moet ik gewoon verder werken aan de site.
 
   Ook het gebruiken van grid blijft lastig, omdat dit blijft verschringen op mijn pagina.
 
+  
+
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
 
+Feedback van het eind gesprek:
+Er waren een paar dingen nog niet goed zo werkte mijn github page nog niet en was mijn pagina nog niet helemaal responsive
+Voor mijn herkansingen heb ik die dingen gefixt en werkt alles zoals het hoort te werken.
+Ook heb ik nog extra aandacht besteed aan het er voor zorgen dat de pagina nog beter op de originiele werkt. zo heb ik bij bepaalde dingen de hoekjes afgerond of toch nog het lettertype iets aangepast.
 
-
+Ik heb nu de website meer responsive gemaakt door middel van grid. eerst vond ik dit heel lastig werken, maar zo dra ik er mee aan de slag ben gegaan heb ik het best wel snel opgepakt. Het herschrijven van mijn code ging hierdoor ook meerdere malen snellen als de eerste keer dat ik dit deed.
 
 
 ## Bronnenlijst
